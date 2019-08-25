@@ -1,11 +1,13 @@
-# Wesolowski Verifiable Delay Function for integer input and parameters.
+# Wesolowski Verifiable Delay Function
 
 Reference: https://eprint.iacr.org/2018/623.pdf
 
 ## Install dependencies
 
 npm: https://www.npmjs.com/
+
 Install big-integer: `npm i big-integer`
+
 Install web3-utils: `npm i web3-utils`
 
 ## Setup
@@ -13,5 +15,7 @@ Install web3-utils: `npm i web3-utils`
 
 ## Wesolowski.js
 Implementation of Evaluation and Verification algorithms.
--Time parameter T where T=2^t
--proof construction variable k must divide t
+
+* Integer input and parameters
+* Time parameter T where T=2^t
+* proof construction variable k must divide t
