@@ -13,9 +13,11 @@ Install web3-utils: `npm i web3-utils`
 ## Pietrzak.js
 Implementation of Evaluation and Verification algorithms.
 
+* Input x must be quadratic residue of N 
+* N = pq where p,q are safe primes
 * Integer input and parameters
 * Input t value to determine T=2^t
-* s is eval proof construct parameter
+* s={1,2,3} is eval proof construct parameter
 
-##quad_residues.js
+## quad_residues.js
 Helper code to find and check quadratic residues for some N.
